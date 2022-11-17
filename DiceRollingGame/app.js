@@ -12,8 +12,6 @@
 
 // ცვლადები
 let scores, roundScore, activePlayer, dice, gamePlaying;  // ზოგადი ცვლადები
-const query = document.querySelector; // ქუერი სელექტორები
-const getID = document.getElementById; // იდ სელექტორები
 
 // ივენთები
 document.querySelector('.btn-roll').addEventListener('click', btn) // კლიკ ივენთი
@@ -29,10 +27,10 @@ function init(){
     gamePlaying = true; // გეიმფლეის ბულეანი
     
     document.querySelector('.dice').style.display = 'none'; // ამით ვმალავთ კამათლის ფოტოს თამაშის დასაწყისში
-    document.querySelector('score-0').textContent = '0'; // ინტერფეისის 0 ზე დაყენება
-    document.querySelector('score-1').textContent = '0'; // ინტერფეისის 0 ზე დაყენება
-    document.querySelector('current-0').textContent = '0'; // ინტერფეისის 0 ზე დაყენება
-    document.querySelector('current-1').textContent = '0'; // ინტერფეისის 0 ზე დაყენება
+    document.querySelector('#score-0').textContent = '0'; // ინტერფეისის 0 ზე დაყენება
+    document.querySelector('#score-1').textContent = '0'; // ინტერფეისის 0 ზე დაყენება
+    document.querySelector('#current-0').textContent = '0'; // ინტერფეისის 0 ზე დაყენება
+    document.querySelector('#current-1').textContent = '0'; // ინტერფეისის 0 ზე დაყენება
     document.querySelector('#name-0').textContent = 'Player 1'; // ინტერფეისში სახელის შეცვლა
     document.querySelector('#name-1').textContent = 'Player 2'; // ინტერფეისში სახელის შეცვლა
     document.querySelector('.player-0-panel').classList.remove('winner'); // winner კლასის წაშლა
@@ -44,8 +42,23 @@ function init(){
 }
 
 function clickFunction() {
+    activePlayer = 0; // 0 ით და 1 ით ვცვლით აქტიურ მოთამაშეს
+    scores = [0,0]; // საწყისი გლობალური ქულები
+    roundScore = 0; // საწყისი რაუნდის ქულები
+    gamePlaying = true; // გეიმფლეის ბულეანი
 
-    init(); // ინიტ ფუნქციის გამოძახება
+    document.querySelector('.dice').style.display = 'none'; // ამით ვმალავთ კამათლის ფოტოს თამაშის დასაწყისში
+    document.querySelector('#score-0').textContent = '0'; // ინტერფეისის 0 ზე დაყენება
+    document.querySelector('#score-1').textContent = '0'; // ინტერფეისის 0 ზე დაყენება
+    document.querySelector('.player-current-score').textContent = '0'; // ინტერფეისის 0 ზე დაყენება
+    document.querySelector('.player-current-score').textContent = '0'; // ინტერფეისის 0 ზე დაყენება
+    document.querySelector('#name-0').textContent = 'Player 1'; // ინტერფეისში სახელის შეცვლა
+    document.querySelector('#name-1').textContent = 'Player 2'; // ინტერფეისში სახელის შეცვლა
+    document.querySelector('.player-0-panel').classList.remove('winner'); // winner კლასის წაშლა
+    document.querySelector('.player-1-panel').classList.remove('winner'); // winner კლასის წაშლა
+    document.querySelector('.player-1-panel').classList.remove('active'); // active კლასის წაშლა
+    document.querySelector('.player-0-panel').classList.remove('active'); // active კლასის წაშლა
+    document.querySelector('.player-1-panel').classList.add('active'); // active კლასის დამატება
 
 }
 
@@ -84,8 +97,8 @@ function nextPlayer() {
     activePlayer === 0 ? activePlayer = 1 : activePlayer = 0; //შემდეგი მოთამაშე ternery operator-ით
     roundScore = 0; // რაუნდის ქულა რესტარტდება JS-ში
         
-    document.querySelector('current-0').textContent = '0'; // ინტერფეისში რესტარტდება ქულა
-    document.querySelector('current-1').textContent = '0'; // ინტერფეისში რესტარტდება ქულა
+    document.querySelector('#current-0').textContent = '0'; // ინტერფეისში რესტარტდება ქულა
+    document.querySelector('#current-1').textContent = '0'; // ინტერფეისში რესტარტდება ქულა
 
     document.querySelector('.player-0-panel').classList.toggle('active'); // აქტიური მოთამაშის თაგლი
     document.querySelector('.player-1-panel').classList.toggle('active'); // აქტიური მოთამაშის თაგლი
