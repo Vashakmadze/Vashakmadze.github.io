@@ -11,6 +11,7 @@ let cards = document.getElementsByClassName("inner");
 
 const projects = [
   "https://gadawere.ge/",
+  "https://github.com/Vashakmadze/bluepigeon-honeypot",
   "https://vashakmadze.github.io/the.weather/",
   "https://vashakmadze.github.io/jobs-api/",
   "https://vashakmadze.github.io/spendbidzinasmoney/",
