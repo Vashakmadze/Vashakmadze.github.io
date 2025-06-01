@@ -18,6 +18,18 @@
 		"description": "Tech&meet meeting presented by Frederik Duchi, member of Baserow."
 	},
 	{
+		"title": "How Governments and Hackers spy on you using your phone and outdated Global Technology",
+		"slug": "how-governments-and-hackers-spy-on-you-using-your-phone-and-outdated-global-technology",
+		"date": "2024-09-23",
+		"description": "An exploration of how governments and hackers exploit outdated global technology to spy on individuals through their phones."
+	},
+	{
+		"title": "Understanding Android Security Risks: A Brief Case Study of Malware Injection into Genuine APK",
+		"slug": "understanding-android-security-risks-a-brief-case-study-of-malware-injection-into-genuine-apk",
+		"date": "2024-03-26",
+		"description": "A case study on Android security risks, focusing on malware injection into genuine APK files."
+	},
+	{
 		"title": "Building My Minimalist Portfolio Website",
 		"slug": "building-my-blog-portfolio-website",
 		"description": "A journey through the development process."
