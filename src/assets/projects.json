@@ -1,0 +1,57 @@
+[
+	{
+		"role": "Full Stak Developer",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"link": "https://example.com",
+		"images": [
+			"https://via.placeholder.com/150",
+			"https://via.placeholder.com/150",
+			"https://via.placeholder.com/150"
+		],
+		"category": "development"
+	},
+	{
+		"role": "Full Stak Developer",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"link": "https://example.com",
+		"images": [
+			"https://via.placeholder.com/150",
+			"https://via.placeholder.com/150",
+			"https://via.placeholder.com/150"
+		],
+		"category": "cybersecurity"
+	},
+	{
+		"role": "Full Stak Developer",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"link": "https://example.com",
+		"images": [
+			"https://via.placeholder.com/150",
+			"https://via.placeholder.com/150",
+			"https://via.placeholder.com/150"
+		],
+		"category": "cybersecurity"
+	},
+	{
+		"role": "Full Stak Developer",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"link": "https://example.com",
+		"images": [
+			"https://via.placeholder.com/150",
+			"https://via.placeholder.com/150",
+			"https://via.placeholder.com/150"
+		],
+		"category": "development"
+	},
+	{
+		"role": "Full Stak Developer",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"link": "https://example.com",
+		"images": [
+			"https://via.placeholder.com/150",
+			"https://via.placeholder.com/150",
+			"https://via.placeholder.com/150"
+		],
+		"category": "cybersecurity"
+	}
+]

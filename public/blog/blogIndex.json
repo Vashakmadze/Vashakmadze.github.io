@@ -1,0 +1,25 @@
+[
+	{
+		"title": "Jo Lernout on Robotics, Regulation, and Resilience",
+		"slug": "jo-lernout-on-robotics-regulation-and-resilience",
+		"date": "2024-12-3",
+		"description": "Tech&meet with Jo Lernout, a robotics expert, discussing the future of robotics and its implications for society."
+	},
+	{
+		"title": "Winning Hack-The-Future 2024 Hackathon in Antwerp",
+		"slug": "winning-hack-the-future-2024-hackathon-in-antwerp",
+		"date": "2024-11-19",
+		"description": "A recap of the Hack-The-Future 2024 hackathon in Antwerp, where I won with my team."
+	},
+	{
+		"title": "Exploring No-Code with Baserow's Frederik Duchi",
+		"slug": "exploring-no-code-with-baserows-frederik-duchi",
+		"date": "2024-10-22",
+		"description": "Tech&meet meeting presented by Frederik Duchi, member of Baserow."
+	},
+	{
+		"title": "Building My Minimalist Portfolio Website",
+		"slug": "building-my-blog-portfolio-website",
+		"description": "A journey through the development process."
+	}
+]
